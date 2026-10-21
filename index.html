@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>flox1an – Projects</title>
+<meta name="description" content="An overview of flox1an's projects: Nostr tools and games.">
+<style>
+  :root { color-scheme: light dark; --bg: #fafafa; --fg: #1a1a1a; --muted: #666; --card: #fff; --border: #e3e3e3; --accent: #7c3aed; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111; --fg: #eee; --muted: #999; --card: #1b1b1b; --border: #2c2c2c; --accent: #a78bfa; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.5 system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--fg); }
+  main { max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem; }
+  h1 { margin: 0 0 .25rem; font-size: 2rem; }
+  h2 { margin: 2.5rem 0 1rem; font-size: 1.1rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  p.lead { margin: 0; color: var(--muted); }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  a.card { display: block; height: 100%; padding: 1rem 1.1rem; background: var(--card); border: 1px solid var(--border); border-radius: 10px; color: inherit; text-decoration: none; transition: border-color .15s; }
+  a.card:hover, a.card:focus-visible { border-color: var(--accent); }
+  a.card strong { display: block; color: var(--accent); margin-bottom: .25rem; }
+  a.card span { font-size: .9rem; color: var(--muted); }
+  footer { margin-top: 3rem; font-size: .9rem; color: var(--muted); }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>flox1an</h1>
+  <p class="lead">All my projects at a glance.</p>
+
+  <h2>Projects</h2>
+  <ul>
+    <li><a class="card" href="https://flox1an.github.io/nostube/"><strong>Nostube</strong><span>Video on Nostr: the web app, the self-hosted server and the embed player.</span></a></li>
+    <li><a class="card" href="https://flox1an.github.io/nostube-search/"><strong>Nostube Search</strong><span>Run, configure and understand the Nostr video search engine.</span></a></li>
+    <li><a class="card" href="https://flox1an.github.io/nostube-imgproxy/"><strong>Nostube Image Proxy</strong><span>Resize images, extract video thumbnails and discover Blossom media.</span></a></li>
+    <li><a class="card" href="https://flox1an.github.io/almond/"><strong>Almond</strong><span>A Blossom media server for Nostr.</span></a></li>
+  </ul>
+
+  <h2>Games</h2>
+  <ul>
+    <li><a class="card" href="https://handydice.github.io/"><strong>HandyDice</strong><span>Free dice roller: D6 with pips, D4–D100, trays to collect dice. Offline, no sign-up, no trackers.</span></a></li>
+  </ul>
+
+  <footer><a href="https://github.com/flox1an">github.com/flox1an</a></footer>
+</main>
+</body>
+</html>
